@@ -1,0 +1,130 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(218, 52, 52, 0.419) 0 100%) , url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position:center;
+   position: relative;
+}
+.home h1{
+    font-size: 85px;
+    font-weight: bold;
+}
+:root{
+    scroll-behavior: auto;
+}
+/*-----box-----*/
+.box-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: start;
+     height: 100%; 
+}
+ .icon{
+    padding: 20px;
+      margin:auto; 
+    cursor: pointer;
+    font-size: 40px;
+    color: white;
+    /* position: absolute;
+    top: 50%;
+    left: 10px;  */
+}
+
+.box-container .box-inner{
+    padding: 15px;
+    display: none;
+
+   
+}
+.box-container .box-inner .close{
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+.box-container .box-inner .close:hover{
+    color: #D62E33 ;
+}
+.box-container ul li{
+    list-style: none;
+    padding: 35px;
+    margin-top: 30px;
+}
+.box-container ul a{
+ text-decoration: none;
+ color: white;
+ font-size: 30px;
+}
+.box-container ul a:hover{
+    color: #D62E33;
+}
+/*----duration---*/
+#duration .textALL{
+    background-color: #E68285;
+}
+#duration p{
+    background-color: #CCCCCC;
+    padding: 10px;
+    display: none;
+    line-height: 35px;
+}
+#duration h2{
+    background-color: #E68285;
+    padding: 5px;
+   cursor: pointer;
+   color: white;
+}
+/*---details----*/
+#details{
+    background-image:linear-gradient( rgba(245, 63, 93, 0.758)  0 100%)    , url(../images/invitation-2508607__340.jpg);
+   background-size: cover;
+   background-position: center;
+   margin-block: 100px;
+   padding-top: 50px;
+   
+}
+#details .number{
+    padding: 70px;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+}
+/*----contact----*/
+#contact p{
+    text-align: center;
+    line-height: 50px;
+    font-size: 23px;
+  color: gray;
+}
+#contact h3,h4{
+    font-weight: bold;
+}
+#contact ul{
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+}
+#contact ul li{
+    padding: 15px 20px;
+    font-size: 23px;
+    border:1px solid gray;
+    margin-right: 10px;
+    color: grey;
+    cursor: pointer;
+}
+#contact ul li:hover{
+    background-color: #D62E33;
+    color: white;
+    border:1px solid #D62E33;
+}
+form button{
+    border: 1px solid #D62E33;
+    background-color: #D62E33;
+    padding: 15px 20px;
+    color: white;
+    font-size: 20px;
+}
